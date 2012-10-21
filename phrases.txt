@@ -1,0 +1,8 @@
+No.
+Yes.
+Maybe.
+200 OK
+Do you think it is RESTful?
+You would make Roy proud.
+More hypermedia, please.
+I love the smell of POST in the morning.

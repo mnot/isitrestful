@@ -1,0 +1,47 @@
+body {
+  margin: 128px auto;
+  min-width: 600px;
+  width: 80%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+input[type=text] {
+  width: 400px;
+  font-size: 24px;
+  background-color: #eee;
+  color: blue;
+  border: none;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 0px auto 18px auto;
+}
+
+h2 {
+  margin-top: 48px;
+  font-size: 140px;
+  line-height: 150px;
+  font-weight: bolder;
+}
+
+p.share {
+  font-size: 16px;
+  color: #aaa;
+  margin: 48px 0px;
+}
+
+p.why {
+  font-size: 12px;
+  position: fixed;
+  bottom: 12px;
+  left: 12px;
+}
+
+p.why:link, p.why:visited, p.why:active {
+  color: #ffa;
+  opacity: 0.8;
+}

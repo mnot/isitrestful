@@ -1,0 +1,9 @@
+amazon.com
+aws.amazon.com
+api.facebook.com
+facebook.com
+twitter.com
+api.twitter.com
+api.rdio.com
+www.rdio.com
+developer.rdio.com
