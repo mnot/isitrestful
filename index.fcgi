@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 from cgi import parse_qs
 from flup.server.fcgi import WSGIServer
