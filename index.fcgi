@@ -17,7 +17,7 @@ black_sites = [l.strip() for l in open('black.txt').readlines()]
 
 def app(environ, start_response):
     d = parse_qs(environ['QUERY_STRING'])
-    url = d.get('url', [''])[0].decode(charset, 'replace')
+    url = d.get('url', [''])
 
     if not url:
         phrase = None
