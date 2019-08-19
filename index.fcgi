@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
 from cgi import parse_qs
 from flup.server.fcgi import WSGIServer
@@ -6,7 +6,7 @@ import hashlib
 import pystache
 from random import choice
 import re
-from urlparse import urlsplit, urlunsplit
+from urllib.parse import urlsplit, urlunsplit
 from uri_validate import absolute_URI
 
 charset="utf-8"
