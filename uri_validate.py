@@ -229,25 +229,25 @@ if "__main__" == __name__:
         try:
                 instr = sys.argv[1]
         except IndexError:
-                print "usage: %s test-string" % sys.argv[0]
+                print("usage: %s test-string" % sys.argv[0])
                 sys.exit(1)
         
-        print 'testing: "%s"' % instr
+        print('testing: "%s"' % instr)
         
-        print "URI:",
+        print("URI:", end=' ')
         if re.match("^%s$" % URI, instr, re.VERBOSE):
-                print "yes"
+                print("yes")
         else:
-                print "no"
+                print("no")
         
-        print "URI reference:",
+        print("URI reference:", end=' ')
         if re.match("^%s$" % URI_reference, instr, re.VERBOSE):
-                print "yes"
+                print("yes")
         else:
-                print "no"
+                print("no")
         
-        print "Absolute URI:",
+        print("Absolute URI:", end=' ')
         if re.match("^%s$" % absolute_URI, instr, re.VERBOSE):
-                print "yes"
+                print("yes")
         else:
-                print "no"
+                print("no")
