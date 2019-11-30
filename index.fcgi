@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from cgi import parse_qs
+from urllib.parse import parse_qs
 from flup.server.fcgi import WSGIServer
 import hashlib
 import pystache
